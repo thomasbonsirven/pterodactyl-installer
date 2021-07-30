@@ -69,27 +69,27 @@ output "This script is not associated with the official Pterodactyl Project."
 output
 
 panel() {
-  bash <(curl -s https://raw.githubusercontent.com/vilhelmprytz/pterodactyl-installer/$SCRIPT_VERSION/install-panel.sh)
+  bash <(curl -s https://raw.githubusercontent.com/thomasbonsirven/pterodactyl-installer/$SCRIPT_VERSION/install-panel.sh)
 }
 
 wings() {
-  bash <(curl -s https://raw.githubusercontent.com/vilhelmprytz/pterodactyl-installer/$SCRIPT_VERSION/install-wings.sh)
+  bash <(curl -s https://raw.githubusercontent.com/thomasbonsirven/pterodactyl-installer/$SCRIPT_VERSION/install-wings.sh)
 }
 
 legacy_panel() {
-  bash <(curl -s https://raw.githubusercontent.com/vilhelmprytz/pterodactyl-installer/$SCRIPT_VERSION/legacy/panel_0.7.sh)
+  bash <(curl -s https://raw.githubusercontent.com/thomasbonsirven/pterodactyl-installer/$SCRIPT_VERSION/legacy/panel_0.7.sh)
 }
 
 legacy_wings() {
-  bash <(curl -s https://raw.githubusercontent.com/vilhelmprytz/pterodactyl-installer/$SCRIPT_VERSION/legacy/daemon_0.6.sh)
+  bash <(curl -s https://raw.githubusercontent.com/thomasbonsirven/pterodactyl-installer/$SCRIPT_VERSION/legacy/daemon_0.6.sh)
 }
 
 canary_panel() {
-  bash <(curl -s https://raw.githubusercontent.com/vilhelmprytz/pterodactyl-installer/master/install-panel.sh)
+  bash <(curl -s https://raw.githubusercontent.com/thomasbonsirven/pterodactyl-installer/master/install-panel.sh)
 }
 
 canary_wings() {
-  bash <(curl -s https://raw.githubusercontent.com/vilhelmprytz/pterodactyl-installer/master/install-wings.sh)
+  bash <(curl -s https://raw.githubusercontent.com/thomasbonsirven/pterodactyl-installer/master/install-wings.sh)
 }
 
 while [ "$done" == false ]; do

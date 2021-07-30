@@ -1,3 +1,4 @@
+# FORK #
 # :bird: pterodactyl-installer
 
 [![Build Status](https://travis-ci.com/vilhelmprytz/pterodactyl-installer.svg?branch=master)](https://travis-ci.com/vilhelmprytz/pterodactyl-installer)
